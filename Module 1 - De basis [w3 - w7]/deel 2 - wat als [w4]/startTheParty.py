@@ -34,7 +34,7 @@ altijd_feest = gastheer == naam
 nooit_feest = gastheer == slb_naam
 
 
-if start_condition_1 and start_condition_2 and start_condition_3 and start_condition_4 and start_condition_5 and start_condition_6 and altijd_feest and genoeg_gasten:
+if start_condition_1 and start_condition_2 and start_condition_3 and start_condition_4 and start_condition_5 and start_condition_6 or altijd_feest and genoeg_gasten:
     print("Het feest kan beginnen!")
 else:
     print(f"No Party")
