@@ -14,14 +14,15 @@ b = int(input("voer het tweede getal in "))
 # Ken de waarde van a toe aan een variabele Min
 # Laat het programma printen: ‘a is het kleinste getal: ’ gevolgd door de waarde van Min
 
-min = None
-max = None
+min = a
+max = b
 
 if a > b :
     max = a
-    print(f"a is het grootste getal: {max} ")
     min = b
-
+    print(f"a is het grootste getal: {max} ")
+    
+    
 elif b > a :
     max = b
     min = a

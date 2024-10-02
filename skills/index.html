@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Calculator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verwijzing naar het CSS-bestand -->
+</head>
+<body>
+    <div class="container">
+        <h1>Pizza Calculator</h1>
+        <form id="pizzaForm">
+            <!-- Input voor het aantal small pizza's -->
+            <div class="pizza-option">
+                <label for="small">Aantal small pizza's (€8,50):</label>
+                <input type="number" id="small" name="small" min="0" value="0">
+            </div>
+
+            <!-- Input voor het aantal medium pizza's -->
+            <div class="pizza-option">
+                <label for="medium">Aantal medium pizza's (€10,50):</label>
+                <input type="number" id="medium" name="medium" min="0" value="0">
+            </div>
+
+            <!-- Input voor het aantal large pizza's -->
+            <div class="pizza-option">
+                <label for="large">Aantal large pizza's (€12,50):</label>
+                <input type="number" id="large" name="large" min="0" value="0">
+            </div>
+
+            <!-- Knop om de berekening uit te voeren -->
+            <button type="button" onclick="calculateTotal()">Bereken totaal</button>
+        </form>
+
+        <!-- Div waar de resultaten worden getoond -->
+        <div id="result"></div>
+    </div>
+
+    <footer>&copy; <span id="year"></span> Jouw Naam</footer> <!-- Footer met huidig jaar en naam -->
+
+    <script src="scripts.js"></script> <!-- Verwijzing naar het JavaScript-bestand -->
+</body>
+</html>
