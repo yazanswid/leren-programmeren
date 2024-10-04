@@ -32,7 +32,7 @@ elif b > a :
 # Laat het programma printen: ‘a en b zijn even groot’
 # Doe een commit met de titel “else-statement”
 # Breidt het programma uit.
-else :
+else:
     
     Min = a  
     Max = a  
@@ -47,3 +47,4 @@ else :
 
 print(f'Het minimum is: {min}')
 print(f'Het maximum is: {max}')
+
