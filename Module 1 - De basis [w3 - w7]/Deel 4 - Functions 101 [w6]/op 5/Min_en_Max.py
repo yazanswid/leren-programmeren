@@ -11,7 +11,7 @@ def max_min(nr1: int, nr2: int) -> str:
     elif nr1>nr2:
         return (f"{nr1} is groter dan {nr2}")
     else:
-        return (f"{nr2}is groter dan {nr1}")
+        return (f"{nr1} is kleiner dan {nr2}")
     
 
 
