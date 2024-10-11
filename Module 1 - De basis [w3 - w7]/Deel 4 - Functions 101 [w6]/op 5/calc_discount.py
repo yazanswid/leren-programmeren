@@ -1,6 +1,6 @@
 from test_libe import *
 
-month_discount_brands = ["Vespa", "Kymco", "Yamaha"]
+month_discount_brands = ["Vespa", "Kymco", "Yamama"]
 MONTH_DISCOUNT_PERC = 10
 def calc_discount(price: float, brand: str, month_discount_brands: str) -> float:
     if price < 0:
@@ -15,7 +15,7 @@ def calc_discount(price: float, brand: str, month_discount_brands: str) -> float
 Scooters = [
     (100, "Vespa"),
     (200, "Kymco"), 
-    (150, "Yamaha"), 
+    (150, "Yamama"), 
 ]
 
 for price, brand in Scooters:
