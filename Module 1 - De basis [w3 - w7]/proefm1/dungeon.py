@@ -52,6 +52,17 @@ def kamer_2():
         player["inventory"].append("sleutel")
     else:
         print("Fout antwoord. Geen sleutel voor jou.")
+    
+    
+    keuze = input("Wil je naar kamer 6 (zombie) of kamer 3 (item)? Typ '6' voor kamer 6 of '3' voor kamer 3: ")
+    
+    if keuze == '6':
+        kamer_6()  
+    elif keuze == '3':
+        kamer_3()  
+    else:
+        print("Ongeldige keuze. Je blijft in kamer 2.")
+        kamer_2()  
 
 def kamer_3():
     print("Je bent in kamer 3. Je vindt hier een item.")
@@ -63,6 +74,17 @@ def kamer_3():
     elif item == "zwaard":
         player["attack"] += 2
         print("Je hebt een zwaard gekregen. +2 aanvalskracht!")
+
+    
+    keuze = input("Wil je naar kamer 2 (standbeeld) of kamer 6 (zombie)? Typ '2' voor kamer 2 of '6' voor kamer 6: ")
+    
+    if keuze == '2':
+        kamer_2()  
+    elif keuze == '6':
+        kamer_6()  
+    else:
+        print("Ongeldige keuze. Je blijft in kamer 3.")
+        kamer_3()  
 
 def kamer_4():
     print("Je bent in kamer 4. Je vecht tegen een nieuwe vijand!")
@@ -92,11 +114,6 @@ def kamer_6():
 
 def dungeon():
     kamer_1()
-    kamer_2()
-    kamer_6()  
-    kamer_3()
-    kamer_4()
-    kamer_5()
+    kamer_2()  
 
-# Start het spel
 dungeon()
