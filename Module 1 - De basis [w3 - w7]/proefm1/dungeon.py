@@ -1,7 +1,7 @@
 import random
 import math
 
-# Speler-object met statistieken
+
 player = {
     "health": 100,
     "attack": 10,
@@ -13,7 +13,7 @@ def gevecht(vijand):
     """Herbruikbare gevechtsfunctie tussen speler en vijand."""
     print(f"Je vecht tegen een vijand met {vijand['attack']} aanval, {vijand['defense']} verdediging, en {vijand['health']} gezondheid.")
     
-    # Bereken schade per hit
+    
     vijand_damage = max(0, vijand["attack"] - player["defense"])
     player_damage = max(0, player["attack"] - vijand["defense"])
     
@@ -38,7 +38,7 @@ def kamer_1():
 
 def kamer_2():
     print("Je bent in kamer 2. Hier staat een standbeeld met een rekensom.")
-    # Genereer een willekeurige som
+    
     num1 = random.randint(10, 25)
     num2 = random.randint(-5, 75)
     operator = random.choice(["+", "-", "*"])
