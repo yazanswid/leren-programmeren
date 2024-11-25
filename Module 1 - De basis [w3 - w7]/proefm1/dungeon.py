@@ -1,19 +1,20 @@
 import random
 import math
 
-
+# Speler-object met statistieken
 player = {
     "health": 100,
     "attack": 10,
     "defense": 5,
-    "inventory": []
+    "inventory": [],
+    "rupees": 0  # Aantal rupees van de speler
 }
 
 def gevecht(vijand):
     """Herbruikbare gevechtsfunctie tussen speler en vijand."""
     print(f"Je vecht tegen een vijand met {vijand['attack']} aanval, {vijand['defense']} verdediging, en {vijand['health']} gezondheid.")
     
-    
+    # Bereken schade per hit
     vijand_damage = max(0, vijand["attack"] - player["defense"])
     player_damage = max(0, player["attack"] - vijand["defense"])
     
@@ -38,7 +39,7 @@ def kamer_1():
 
 def kamer_2():
     print("Je bent in kamer 2. Hier staat een standbeeld met een rekensom.")
-    
+    # Genereer een willekeurige som
     num1 = random.randint(10, 25)
     num2 = random.randint(-5, 75)
     operator = random.choice(["+", "-", "*"])
@@ -53,38 +54,54 @@ def kamer_2():
     else:
         print("Fout antwoord. Geen sleutel voor jou.")
     
+    # Keuze maken: naar kamer 8 of kamer 6
+    keuze = input("Wil je naar kamer 8 (de gokmachine) of kamer 6 (de zombie)? Typ '8' voor kamer 8 of '6' voor kamer 6: ")
     
-    keuze = input("Wil je naar kamer 6 (zombie) of kamer 3 (item)? Typ '6' voor kamer 6 of '3' voor kamer 3: ")
-    
-    if keuze == '6':
-        kamer_6()  
-    elif keuze == '3':
-        kamer_3()  
+    if keuze == '8':
+        kamer_8()  # Ga naar kamer 8 (gokmachine)
+    elif keuze == '6':
+        kamer_6()  # Ga naar kamer 6 (zombie)
     else:
         print("Ongeldige keuze. Je blijft in kamer 2.")
-        kamer_2()  
+        kamer_2()
 
 def kamer_3():
-    print("Je bent in kamer 3. Je vindt hier een item.")
-    item = random.choice(["schild", "zwaard"])
+    print("Je bent in kamer 3. Hier is een goblin die spullen verkoopt.")
+    items = {
+        "schild": {"cost": 1, "effect": "+1 verdediging"},
+        "zwaard": {"cost": 1, "effect": "+2 aanval"}
+    }
     
-    if item == "schild":
-        player["defense"] += 1
-        print("Je hebt een schild gekregen. +1 verdediging!")
-    elif item == "zwaard":
-        player["attack"] += 2
-        print("Je hebt een zwaard gekregen. +2 aanvalskracht!")
-
-    
-    keuze = input("Wil je naar kamer 2 (standbeeld) of kamer 6 (zombie)? Typ '2' voor kamer 2 of '6' voor kamer 6: ")
-    
-    if keuze == '2':
-        kamer_2()  
-    elif keuze == '6':
-        kamer_6()  
+    print(f"De goblin merkt op dat je {player['rupees']} rupee(s) hebt.")
+    if player["rupees"] > 0:
+        print("Hij vraagt: 'Wat wil je kopen?'")
+        while player["rupees"] > 0:
+            print("Beschikbare items:")
+            for item, details in items.items():
+                print(f"{item}: {details['cost']} rupee(s), effect: {details['effect']}")
+            keuze = input("Typ de naam van het item om het te kopen, of 'nee' om verder te gaan: ").lower()
+            if keuze in items:
+                if player["rupees"] >= items[keuze]["cost"]:
+                    player["rupees"] -= items[keuze]["cost"]
+                    if keuze == "schild":
+                        player["defense"] += 1
+                    elif keuze == "zwaard":
+                        player["attack"] += 2
+                    print(f"Je hebt een {keuze} gekocht! Je statistieken zijn geüpdatet.")
+                else:
+                    print("Je hebt niet genoeg rupees.")
+            elif keuze == "nee":
+                break
+            else:
+                print("Ongeldige keuze.")
     else:
-        print("Ongeldige keuze. Je blijft in kamer 3.")
-        kamer_3()  
+        print("Je hebt geen rupees. De goblin stuurt je weg.")
+    
+    volgende = input("Wil je naar kamer 8 of kamer 6? Typ '8' of '6': ")
+    if volgende == "8":
+        kamer_8()
+    elif volgende == "6":
+        kamer_6()
 
 def kamer_4():
     print("Je bent in kamer 4. Je vecht tegen een nieuwe vijand!")
@@ -111,9 +128,55 @@ def kamer_6():
     }
     gevecht(vijand)
 
+def kamer_7():
+    print("Je bent in kamer 7. Je hebt een rupee gevonden!")
+    player["rupees"] += 1
+    print(f"Je hebt nu {player['rupees']} rupee(s).")
+    keuze = input("Wil je naar kamer 3 (verkooppunt) of kamer 6 (de zombie)? Typ '3' of '6': ")
+    if keuze == "3":
+        kamer_3()
+    elif keuze == "6":
+        kamer_6()
 
+def kamer_8():
+    print("Je bent in kamer 8. Hier staat een gokmachine.")
+    keuze = input("Wil je de gokmachine gebruiken? Typ 'ja' of 'nee': ").lower()
+    if keuze == "ja":
+        dobbel1 = random.randint(1, 6)
+        dobbel2 = random.randint(1, 6)
+        totaal = dobbel1 + dobbel2
+        print(f"De dobbelstenen rollen {dobbel1} en {dobbel2}. Totaal: {totaal}.")
+        if totaal > 7:
+            player["rupees"] *= 2
+            print(f"Geweldig! Je hebt nu {player['rupees']} rupee(s).")
+        elif totaal < 7:
+            player["health"] -= 1
+            print(f"Helaas, je verliest 1 health. Je gezondheid is nu: {player['health']}.")
+        else:  # totaal == 7
+            player["rupees"] += 1
+            player["health"] += 4
+            print(f"Perfect! Je krijgt 1 rupee en 4 health. Je hebt nu {player['rupees']} rupee(s) en {player['health']} gezondheid.")
+        if player["health"] <= 0:
+            print("Je gezondheid is 0. Je hebt verloren.")
+            exit()
+    else:
+        print("Je besluit de gokmachine niet te gebruiken.")
+    
+    # Ga naar kamer 3
+    kamer_3()
+
+# Dungeon logica
 def dungeon():
     kamer_1()
-    kamer_2()  
+    kamer_2()
 
+# Start het spel
+dungeon()
+
+# Dungeon logica
+def dungeon():
+    kamer_1()
+    kamer_2()
+
+# Start het spel
 dungeon()
