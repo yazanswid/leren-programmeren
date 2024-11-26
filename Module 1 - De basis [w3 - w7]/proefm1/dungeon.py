@@ -160,6 +160,8 @@ def kamer_5():
     else:
         print("Je hebt geen sleutel. Je kunt de schatkist niet openen. Het spel is voorbij.")
 
+
+
 def kamer_6():
     print("Je bent in kamer 6. De zombie uit kamer 4 is hier!")
     vijand = {
@@ -168,6 +170,19 @@ def kamer_6():
         "health": 50
     }
     gevecht(vijand)
+    
+    # Nieuwe keuze na het gevecht
+    keuze = input("Wil je naar kamer 8 (gokmachine), kamer 3 (goblin) of blijven? Typ '8', '3' of 'blijven': ")
+    if keuze == "8":
+        kamer_8()
+    elif keuze == "3":
+        kamer_3()
+    elif keuze == "blijven":
+        print("Je besluit in kamer 6 te blijven.")
+        kamer_6()
+    else:
+        print("Ongeldige keuze. Je blijft in kamer 6.")
+        kamer_6()
 
 
 def kamer_7():
@@ -187,7 +202,6 @@ def kamer_7():
     else:
         print("Ongeldige keuze. Je blijft in kamer 7.")
         kamer_7()
-
 
 
 def kamer_8():
@@ -214,6 +228,21 @@ def kamer_8():
     else:
         print("Je besluit de gokmachine niet te gebruiken.")
     
+    # Nieuwe keuze na het gebruik van de gokmachine
+    volgende = input("Wil je naar kamer 3 (goblin), kamer 6 (zombie) of blijven? Typ '3', '6' of 'blijven': ")
+    if volgende == "3":
+        kamer_3()
+    elif volgende == "6":
+        kamer_6()
+    elif volgende == "blijven":
+        print("Je besluit in kamer 8 te blijven.")
+        kamer_8()
+    else:
+        print("Ongeldige keuze. Je blijft in kamer 8.")
+        kamer_8()
+
+
+
     # Ga naar kamer 3
     kamer_3()
 
