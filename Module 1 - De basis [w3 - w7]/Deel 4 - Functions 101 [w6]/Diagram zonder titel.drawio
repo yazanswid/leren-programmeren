@@ -1,0 +1,247 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
+  <diagram name="Pagina-1" id="JpfNdnVHHIo1x3PjJASN">
+    <mxGraphModel dx="1105" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="45hrbNh24pvksnxXoReW-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310.45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-8" value="&lt;span class=&quot;hljs-string&quot;&gt;Start&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Game&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330.45" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=19.09090909090909;endSize=6.0636363636363635;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="45hrbNh24pvksnxXoReW-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370.45" y="70" as="sourcePoint" />
+            <mxPoint x="370.45" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310.45" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-13" value="&lt;span class=&quot;hljs-attr&quot;&gt;Kamer 1:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Introduction&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310.45" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="45hrbNh24pvksnxXoReW-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="230" as="sourcePoint" />
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-15" value="&lt;span class=&quot;hljs-attr&quot;&gt;Kamer 2:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Solve&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Math&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Fight&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Zombie&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309.99999999999994" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="369.54999999999995" y="350" as="sourcePoint" />
+            <mxPoint x="369.54999999999995" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="470" as="sourcePoint" />
+            <mxPoint x="150" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-21" value="&lt;span class=&quot;hljs-string&quot;&gt;Solve&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Math&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;           &lt;span class=&quot;hljs-string&quot;&gt;Fight&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Zombie&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;        &lt;span class=&quot;hljs-string&quot;&gt;Invalid&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Input&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(retry&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Kamer&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;hljs-string&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="550" width="500" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="470" as="sourcePoint" />
+            <mxPoint x="190" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="380" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="470" as="sourcePoint" />
+            <mxPoint x="560" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-25" value="&lt;span class=&quot;hljs-string&quot;&gt;Correct&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Answer?&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;        &lt;span class=&quot;hljs-string&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Wins?&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-string&quot;&gt;Retry&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Kamer&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Exit&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="670" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="595" as="sourcePoint" />
+            <mxPoint x="410" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="590" as="sourcePoint" />
+            <mxPoint x="540" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="585" as="sourcePoint" />
+            <mxPoint x="210" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="690" as="sourcePoint" />
+            <mxPoint x="220" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.448;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.8799999999999" y="690.0000000000001" as="sourcePoint" />
+            <mxPoint x="413" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="690" as="sourcePoint" />
+            <mxPoint x="540" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-32" value="yes get rupees&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;yes player wins&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;no player loses&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="203" y="760" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.091;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="890" as="sourcePoint" />
+            <mxPoint x="240" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.59;exitY=1.061;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420.79999999999995" y="789.9999999999999" as="sourcePoint" />
+            <mxPoint x="420" y="848.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-35" value="&lt;span class=&quot;hljs-string&quot;&gt;Go&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Kamer&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span class=&quot;hljs-string&quot;&gt;Go&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Kamer&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;9&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="860" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="880" as="sourcePoint" />
+            <mxPoint x="250" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412" y="880" as="sourcePoint" />
+            <mxPoint x="412" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-40" value="&lt;span class=&quot;hljs-attr&quot;&gt;Kamer 8:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Slot&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Machine|&lt;/span&gt;   &lt;span class=&quot;hljs-string&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;Kamer 6:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Fight&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Zombie&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="202.28" y="930" width="265.45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="970" as="sourcePoint" />
+            <mxPoint x="420" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.199;exitY=1.074;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1060" as="sourcePoint" />
+            <mxPoint x="255" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-43" value="&lt;span class=&quot;hljs-string&quot;&gt;Roll&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Dice&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(1-6)&lt;/span&gt;   &lt;span class=&quot;hljs-string&quot;&gt;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-string&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Wins?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1010" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.776;exitY=1.046;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420.4000000000001" y="1039.9999999999998" as="sourcePoint" />
+            <mxPoint x="420" y="1088.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1040" as="sourcePoint" />
+            <mxPoint x="270" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-48" value="&lt;span class=&quot;hljs-string&quot;&gt;Total&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;7:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Win&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span class=&quot;hljs-attr&quot;&gt;Yes:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Go&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Kamer&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rupees&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-attr&quot;&gt;No:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-string&quot;&gt;Retry&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-string&quot;&gt;Kamer&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1100" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="1240" as="sourcePoint" />
+            <mxPoint x="278" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-53" value="&lt;span class=&quot;hljs-string&quot;&gt;Total&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;7:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Lose&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Health&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1240" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1380" as="sourcePoint" />
+            <mxPoint x="285" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-56" value="&lt;span class=&quot;hljs-string&quot;&gt;Total&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;7:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Gain&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Rupee&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Health&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1340" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="1480" as="sourcePoint" />
+            <mxPoint x="290" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-58" value="&lt;span class=&quot;hljs-string&quot;&gt;Go&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Kamer&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1440" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1630" as="sourcePoint" />
+            <mxPoint x="295" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-60" value="&lt;span class=&quot;hljs-attr&quot;&gt;Kamer 3:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Fight&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Shop&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1540" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-61" value="&lt;span class=&quot;hljs-attr&quot;&gt;Kamer 7:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Find&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Rupee&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1540" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1660" as="sourcePoint" />
+            <mxPoint x="525" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260.45" y="1680" as="sourcePoint" />
+            <mxPoint x="298" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-64" value="&lt;span class=&quot;hljs-string&quot;&gt;Buy&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Items&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(if&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Rupees)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="203" y="1640" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-65" value="&lt;span class=&quot;hljs-literal&quot;&gt;No&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Rupee&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Found&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="1650" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1760" as="sourcePoint" />
+            <mxPoint x="306" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-67" value="&lt;span class=&quot;hljs-string&quot;&gt;Go&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Kamer&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(based&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;choice)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1730" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="45hrbNh24pvksnxXoReW-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280.5" y="1900" as="sourcePoint" />
+            <mxPoint x="310" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45hrbNh24pvksnxXoReW-70" value="&lt;span class=&quot;hljs-string&quot;&gt;End&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Game&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Wins&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1830" width="270" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
