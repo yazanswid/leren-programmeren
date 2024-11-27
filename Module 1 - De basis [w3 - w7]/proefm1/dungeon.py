@@ -36,7 +36,30 @@ def gevecht(vijand):
 
 def kamer_1():
     print("Je bent in kamer 1. Welkom in de dungeon!")
+    keuze = input("Wil je naar kamer 7? Typ '7': ")
+    if keuze == "7":
+        kamer_7()
+    else:
+        print("Ongeldige keuze. Je blijft in kamer 1.")
+        kamer_1()
 
+def kamer_7():
+    print("Je bent in kamer 7.")
+    if random.randint(1, 10) != 1:  # 90% kans (9 op 10)
+        print("Je hebt een rupee gevonden!")
+        player["rupees"] += 1
+        print(f"Je hebt nu {player['rupees']} rupee(s).")
+    else:
+        print("Helaas, je vindt geen rupee in deze kamer.")
+    
+    keuze = input("Wil je naar kamer 2 (standbeeld) of kamer 8 (de gokmachine)? Typ '2' of '8': ")
+    if keuze == "2":
+        kamer_2()
+    elif keuze == "8":
+        kamer_8()
+    else:
+        print("Ongeldige keuze. Je blijft in kamer 7.")
+        kamer_7()
 
 def kamer_2():
     print("Je bent in kamer 2. Hier staat een standbeeld met een rekensom.")
@@ -58,7 +81,6 @@ def kamer_2():
     
     # Keuze maken: naar kamer 8 of kamer 6
     keuze = input("Wil je naar kamer 8 (de gokmachine) of kamer 6 (de zombie)? Typ '8' voor kamer 8 of '6' voor kamer 6: ")
-    
     if keuze == '8':
         kamer_8()  # Ga naar kamer 8 (gokmachine)
     elif keuze == '6':
@@ -67,51 +89,20 @@ def kamer_2():
         print("Ongeldige keuze. Je blijft in kamer 2.")
         kamer_2()
 
-
 def kamer_3():
-    print("Je bent in kamer 3. De goblin is verhuisd naar kamer 9.")
-    keuze = input("Wil je naar kamer 8, kamer 6 of kamer 9? Typ '8', '6' of '9': ")
-    if keuze == "8":
-        kamer_8()
-    elif keuze == "6":
-        kamer_6()
-    elif keuze == "9":
-        kamer_9()
-    else:
-        print("Ongeldige keuze. Je blijft in kamer 3.")
-        kamer_3()
-
-
-
-def kamer_9():
-    print("Je bent in kamer 9. Er hangt een mysterieuze betovering in de lucht.")
-    
-    # Toepassen van de betovering
-    betovering = random.choice(["defense", "health"])
-    if betovering == "defense":
-        player["defense"] += 1
-        print("Je voelt je sterker! Je verdediging is met 1 punt verhoogd.")
-    else:  # health
-        player["health"] += 2
-        print("Je voelt je vitaler! Je gezondheid is met 2 punten verhoogd.")
-    
-    print(f"Je huidige statistieken: Gezondheid: {player['health']}, Verdediging: {player['defense']}")
-    
-    print("\nHier is ook de goblin die spullen verkoopt.")
+    print("Je bent in kamer 3. Hier is een goblin die spullen verkoopt.")
     items = {
         "schild": {"cost": 1, "effect": "+1 verdediging"},
         "zwaard": {"cost": 1, "effect": "+2 aanval"},
         "sleutel": {"cost": 5, "effect": "Opent de schatkist in kamer 5"}
     }
-    
     print(f"De goblin merkt op dat je {player['rupees']} rupee(s) hebt.")
     if player["rupees"] > 0:
-        print("Hij vraagt: 'Wat wil je kopen?'")
         while player["rupees"] > 0:
             print("Beschikbare items:")
             for item, details in items.items():
                 print(f"{item}: {details['cost']} rupee(s), effect: {details['effect']}")
-            keuze = input("Typ de naam van het item om het te kopen, of 'nee' om verder te gaan: ").lower()
+            keuze = input("Typ de naam van het item om te kopen, of 'nee' om verder te gaan: ").lower()
             if keuze in items:
                 if player["rupees"] >= items[keuze]["cost"]:
                     player["rupees"] -= items[keuze]["cost"]
@@ -131,18 +122,36 @@ def kamer_9():
     else:
         print("Je hebt geen rupees. De goblin stuurt je weg.")
     
-    volgende = input("Wil je naar kamer 8, kamer 6 of kamer 3? Typ '8', '6' of '3': ")
-    if volgende == "8":
-        kamer_8()
-    elif volgende == "6":
-        kamer_6()
-    elif volgende == "3":
+    keuze = input("Wil je naar kamer 4 of kamer 9? Typ '4' of '9': ")
+    if keuze == "4":
+        kamer_4()
+    elif keuze == "9":
+        kamer_9()
+    else:
+        print("Ongeldige keuze. Je blijft in kamer 3.")
         kamer_3()
+
+def kamer_9():
+    print("Je bent in kamer 9. Een mysterieuze betovering vult de ruimte.")
+    print("De betovering beïnvloedt je...")
+    
+    # Random bonus: ofwel +1 verdediging, of +2 gezondheid
+    bonus = random.choice(["defense", "health"])
+    if bonus == "defense":
+        player["defense"] += 1
+        print("De betovering versterkt je verdediging! Je verdediging is nu:", player["defense"])
+    elif bonus == "health":
+        player["health"] += 2
+        print("De betovering geneest je! Je gezondheid is nu:", player["health"])
+    
+    keuze = input("Wil je naar kamer 3 of kamer 8? Typ '3' of '8': ")
+    if keuze == "3":
+        kamer_3()
+    elif keuze == "8":
+        kamer_8()
     else:
         print("Ongeldige keuze. Je blijft in kamer 9.")
         kamer_9()
-
-
 
 def kamer_4():
     print("Je bent in kamer 4. Je vecht tegen een nieuwe vijand!")
@@ -160,8 +169,6 @@ def kamer_5():
     else:
         print("Je hebt geen sleutel. Je kunt de schatkist niet openen. Het spel is voorbij.")
 
-
-
 def kamer_6():
     print("Je bent in kamer 6. De zombie uit kamer 4 is hier!")
     vijand = {
@@ -170,39 +177,6 @@ def kamer_6():
         "health": 50
     }
     gevecht(vijand)
-    
-    # Nieuwe keuze na het gevecht
-    keuze = input("Wil je naar kamer 8 (gokmachine), kamer 3 (goblin) of blijven? Typ '8', '3' of 'blijven': ")
-    if keuze == "8":
-        kamer_8()
-    elif keuze == "3":
-        kamer_3()
-    elif keuze == "blijven":
-        print("Je besluit in kamer 6 te blijven.")
-        kamer_6()
-    else:
-        print("Ongeldige keuze. Je blijft in kamer 6.")
-        kamer_6()
-
-
-def kamer_7():
-    print("Je bent in kamer 7.")
-    if random.randint(1, 10) != 1:  # 90% kans (9 op 10)
-        print("Je hebt een rupee gevonden!")
-        player["rupees"] += 1
-        print(f"Je hebt nu {player['rupees']} rupee(s).")
-    else:
-        print("Helaas, je vindt geen rupee in deze kamer.")
-    
-    keuze = input("Wil je naar kamer 3 (verkooppunt) of kamer 6 (de zombie)? Typ '3' of '6': ")
-    if keuze == "3":
-        kamer_3()
-    elif keuze == "6":
-        kamer_6()
-    else:
-        print("Ongeldige keuze. Je blijft in kamer 7.")
-        kamer_7()
-
 
 def kamer_8():
     print("Je bent in kamer 8. Hier staat een gokmachine.")
@@ -225,34 +199,15 @@ def kamer_8():
         if player["health"] <= 0:
             print("Je gezondheid is 0. Je hebt verloren.")
             exit()
-    else:
-        print("Je besluit de gokmachine niet te gebruiken.")
-    
-    # Nieuwe keuze na het gebruik van de gokmachine
-    volgende = input("Wil je naar kamer 3 (goblin), kamer 6 (zombie) of blijven? Typ '3', '6' of 'blijven': ")
-    if volgende == "3":
-        kamer_3()
-    elif volgende == "6":
+    keuze = input("Wil je naar kamer 6 of kamer 9? Typ '6' of '9': ")
+    if keuze == "6":
         kamer_6()
-    elif volgende == "blijven":
-        print("Je besluit in kamer 8 te blijven.")
-        kamer_8()
+    elif keuze == "9":
+        kamer_9()
     else:
         print("Ongeldige keuze. Je blijft in kamer 8.")
         kamer_8()
 
-
-
-    # Ga naar kamer 3
-    kamer_3()
-
-
-# Dungeon logica
-def dungeon():
-    kamer_1()
-    kamer_2()
-
-# Start het spel
-dungeon()
-
+# Start van het spel
+kamer_1()
 
