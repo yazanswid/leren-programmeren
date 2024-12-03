@@ -125,8 +125,9 @@ def kamer_3():
         "schild": {"cost": 1, "effect": "+1 verdediging"},
         "zwaard": {"cost": 1, "effect": "+2 aanval"},
         "sleutel": {"cost": 5, "effect": "Nodig om de schatkist te openen"}
-    }
+    } 
 
+    player ['has_key'] = False
     print(f"Je hebt {player['rupees']} rupee(s).")
     while player["rupees"] > 0:  # Zolang de speler rupees heeft, kan hij items kopen
         print("\nBeschikbare items:")
