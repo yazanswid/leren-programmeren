@@ -1,6 +1,7 @@
 import random
 
 
+
 kleuren = ("oranje", "blauw", "groen", "bruin")
 
 
