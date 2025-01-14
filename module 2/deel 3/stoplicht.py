@@ -12,7 +12,7 @@ def stoplicht_simulatie():
             print("Groen")
             time.sleep(1)
         
-        # Oranje licht
+        
         for _ in range(10):
             print("Oranje")
             time.sleep(1)
