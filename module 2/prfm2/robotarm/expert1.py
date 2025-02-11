@@ -6,6 +6,7 @@ from challenges.expert import challenges
 # load the robotarm with a challenge on a level (max 3)
 robotArm = RobotArm(challenges[1],0)
 
+
 # your code starts here:
 for i in range(1):
     robotArm.grab()
@@ -41,6 +42,7 @@ for w in range(4):
     for k in range(5):
             robotArm.moveLeft()
 
+    
     
 
 
