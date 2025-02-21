@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.15">
+  <diagram name="Pagina-1" id="SEe1c7KnzeAQ9SkBesVM">
+    <mxGraphModel dx="2123" dy="2517" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-1" target="BQl5NlFmL2pu4eTZjRO8-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="228" y="-922.6399841308594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-1" value="start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="167" y="-1071" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-3" target="BQl5NlFmL2pu4eTZjRO8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-3" value="&lt;pre&gt;Vraag namen op van deelnemers&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="126" y="-924" width="215" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-7" target="BQl5NlFmL2pu4eTZjRO8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-7" value="&lt;pre&gt;Herhaal totdat aantal namen ≥ 3&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="-751" width="246" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-9" target="BQl5NlFmL2pu4eTZjRO8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-9" value="&lt;pre&gt;Voeg unieke naam toe aan lijst&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="126" y="-572" width="294" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-10" target="BQl5NlFmL2pu4eTZjRO8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-10" value="&lt;pre&gt;Aantal namen &amp;lt; 3&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="-416" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-13" target="BQl5NlFmL2pu4eTZjRO8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-13" value="&lt;pre&gt;Vraag opnieuw om naam&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="-323" width="201" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-15" target="BQl5NlFmL2pu4eTZjRO8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-15" value="&lt;pre&gt;Aantal namen ≥ 3&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="-215" width="274" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-17" target="BQl5NlFmL2pu4eTZjRO8-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-17" value="&lt;pre&gt;Kies: Nog een naam invoeren of&lt;br/&gt;   lootjes trekken&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="-147" width="276" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-19" target="BQl5NlFmL2pu4eTZjRO8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-19" value="&lt;pre&gt;Nog een naam invoeren&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="3" width="238" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-21" target="BQl5NlFmL2pu4eTZjRO8-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-21" value="&lt;pre&gt; Voeg unieke naam toe&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="130" width="278" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-23" target="BQl5NlFmL2pu4eTZjRO8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-23" value="&lt;pre&gt;Wil je nog een naam&lt;br/&gt;invoeren of lootjes&lt;br/&gt;trekken?&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="280" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-25" target="BQl5NlFmL2pu4eTZjRO8-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-25" value="&lt;pre&gt;Lootjes trekken&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="592" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-27" target="BQl5NlFmL2pu4eTZjRO8-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-27" value="&lt;pre&gt;Random verdeel lootjes&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="560" width="207" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-29" target="BQl5NlFmL2pu4eTZjRO8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-29" value="&lt;pre&gt;Herhaal totdat niemand zichzelf&lt;br/&gt;     heeft:&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="719" width="263" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-31" target="BQl5NlFmL2pu4eTZjRO8-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="943" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-31" value="&lt;pre&gt; Controleer elk lootje&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="861" width="236.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-33" target="BQl5NlFmL2pu4eTZjRO8-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-33" value="&lt;pre&gt;Iemand heeft zichzelf&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472" y="965" width="244" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-35" target="BQl5NlFmL2pu4eTZjRO8-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-35" value="&lt;pre&gt;Verdeel opnieuw&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="1071" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="BQl5NlFmL2pu4eTZjRO8-37" target="BQl5NlFmL2pu4eTZjRO8-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-37" value="&lt;pre&gt; Print lijst met namen en&lt;br/&gt;    bijbehorende lootjes&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="1214" width="249" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQl5NlFmL2pu4eTZjRO8-39" value="Einde" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="1358" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
