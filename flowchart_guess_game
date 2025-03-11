@@ -1,0 +1,44 @@
+digraph {
+	Start [label=Start shape=oval]
+	Init [label="Score = 0
+Ronde = 1" shape=rectangle]
+	Start -> Init
+	"NewRound?" [label="Nieuwe ronde? (max 20)" shape=diamond]
+	Init -> "NewRound?"
+	End [label=Einde shape=oval]
+	"NewRound?" -> End [label=Nee]
+	Generate [label="Geheim getal =
+random(1-1000)" shape=rectangle]
+	"NewRound?" -> Generate [label=Ja]
+	Turn [label="Beurt = 1" shape=rectangle]
+	Generate -> Turn
+	Guess [label="Speler raadt getal" shape=parallelogram]
+	Turn -> Guess
+	Compare [label="Getal correct?" shape=diamond]
+	Guess -> Compare
+	Correct [label="Score += 1
+Ronde stopt" shape=rectangle]
+	Compare -> Correct [label=Ja]
+	Correct -> "NewRound?"
+	Higher [label="Hoger! Probeer opnieuw" shape=rectangle]
+	Lower [label="Lager! Probeer opnieuw" shape=rectangle]
+	Compare -> Higher [label="Nee & te laag"]
+	Compare -> Lower [label="Nee & te hoog"]
+	Higher -> Guess
+	Lower -> Guess
+	Warm [label="Je bent warm! (verschil <50)" shape=rectangle]
+	Hot [label="Je bent heel warm! (verschil <20)" shape=rectangle]
+	Higher -> Warm [constraint=false]
+	Lower -> Warm [constraint=false]
+	Warm -> Hot [constraint=false]
+	Hot -> Guess [constraint=false]
+	"TurnsLeft?" [label="Max 10 beurten?" shape=diamond]
+	Compare -> "TurnsLeft?" [label=Nee]
+	"TurnsLeft?" -> Guess [label=Nee]
+	RoundEnd [label="Ronde voorbij
+Toon score" shape=parallelogram]
+	"TurnsLeft?" -> RoundEnd [label=Ja]
+	RoundEnd -> "NewRound?"
+	FinalScore [label="Toon eindscore" shape=parallelogram]
+	End -> FinalScore
+}

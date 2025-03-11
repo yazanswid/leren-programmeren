@@ -1,7 +1,7 @@
 def boodschappenlijst():
     lijst = {}
     while True:
-        artikel = input('welke artikel wilt u toevoegen? ')
+        artikel = input('welke artikel wilt u toevoegen? ').lower().strip()
         aantal = int(input(f'hoeveel {artikel} wilt u toevoegen? '))
 
         if artikel in lijst:

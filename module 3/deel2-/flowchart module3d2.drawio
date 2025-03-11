@@ -1,0 +1,195 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Pagina-1" id="wZYIoN3HcJwIkmMFvFjA">
+    <mxGraphModel dx="1486" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-1" target="-iLDCWmIBOzPplrgn9gr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-2" target="-iLDCWmIBOzPplrgn9gr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-2" value="&lt;ul data-pm-slice=&quot;3 3 []&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;Zet score op 0&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Zet aantal ronden op 0&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-4" target="-iLDCWmIBOzPplrgn9gr-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="620" />
+              <mxPoint x="70" y="620" />
+              <mxPoint x="70" y="1611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-4" value="&lt;ul data-pm-slice=&quot;3 3 []&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;Zijn er minder dan 20 ronden gespeeld?&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-5" target="-iLDCWmIBOzPplrgn9gr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-5" value="&lt;ul data-pm-slice=&quot;3 3 []&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;Kies een willekeurig getal tussen 1 en 1000&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Zet het aantal beurten op 0&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="640" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-8" target="-iLDCWmIBOzPplrgn9gr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-8" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:716,&amp;quot;end&amp;quot;:755},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:716,&amp;quot;end&amp;quot;:755}]&quot;&gt;Vraag de speler om een getal te raden&lt;/p&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-9" target="-iLDCWmIBOzPplrgn9gr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-13" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-12">
+          <mxGeometry x="-0.1977" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-9" target="-iLDCWmIBOzPplrgn9gr-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="820" />
+              <mxPoint x="50" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-57" value="nee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-56">
+          <mxGeometry x="-0.8074" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-9" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:557,&amp;quot;end&amp;quot;:655},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:557,&amp;quot;end&amp;quot;:655}]&quot;&gt;Is het aantal beurten kleiner dan 10?&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="750" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-17" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-16">
+          <mxGeometry x="-0.2563" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-14" target="-iLDCWmIBOzPplrgn9gr-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-20" value="nee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-19">
+          <mxGeometry x="0.3263" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-14" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:823,&amp;quot;end&amp;quot;:925},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:823,&amp;quot;end&amp;quot;:925}]&quot;&gt;Is de gok correct?&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-18" target="-iLDCWmIBOzPplrgn9gr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-18" value="score +1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-21" target="-iLDCWmIBOzPplrgn9gr-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="1225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-21" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:970,&amp;quot;end&amp;quot;:1149},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:970,&amp;quot;end&amp;quot;:1001}]&quot;&gt;Is de gok te hoog of te laag?&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-29" target="-iLDCWmIBOzPplrgn9gr-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="1225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-24" target="-iLDCWmIBOzPplrgn9gr-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-24" value="beurten +1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-26" target="-iLDCWmIBOzPplrgn9gr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-26" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1197,&amp;quot;end&amp;quot;:1319},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1197,&amp;quot;end&amp;quot;:1223}]&quot;&gt;Meld de score tot nu toe&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1197,&amp;quot;end&amp;quot;:1319},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1197,&amp;quot;end&amp;quot;:1223}]&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Verhoog aantal ronden&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1320" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-29" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:970,&amp;quot;end&amp;quot;:1149},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1005,&amp;quot;end&amp;quot;:1097},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1042,&amp;quot;end&amp;quot;:1097},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1042,&amp;quot;end&amp;quot;:1064}]&quot;&gt;&amp;lt; 50: &quot;Je bent warm&quot;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:970,&amp;quot;end&amp;quot;:1149},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1005,&amp;quot;end&amp;quot;:1097},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1042,&amp;quot;end&amp;quot;:1097},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1070,&amp;quot;end&amp;quot;:1097}]&quot;&gt;&amp;lt; 20: &quot;Je bent heel warm&quot;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-30" target="-iLDCWmIBOzPplrgn9gr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1430" />
+              <mxPoint x="800" y="965" />
+              <mxPoint x="720" y="965" />
+              <mxPoint x="720" y="490" />
+              <mxPoint x="810" y="490" />
+              <mxPoint x="810" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-39" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-38">
+          <mxGeometry x="-0.4719" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-30" target="-iLDCWmIBOzPplrgn9gr-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-42" value="nee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-41">
+          <mxGeometry x="0.1117" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-30" value="wil je nog een ronde spelen ?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-33" target="-iLDCWmIBOzPplrgn9gr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-37" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-36">
+          <mxGeometry x="-0.1274" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-33" target="-iLDCWmIBOzPplrgn9gr-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="1065" />
+              <mxPoint x="100" y="1065" />
+              <mxPoint x="100" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-45" value="nee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-43">
+          <mxGeometry x="-0.974" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-33" value="&lt;ul data-pm-slice=&quot;3 3 []&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;Wil de speler doorgaan?&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="450" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.027;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-iLDCWmIBOzPplrgn9gr-4" target="-iLDCWmIBOzPplrgn9gr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-49" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-iLDCWmIBOzPplrgn9gr-34">
+          <mxGeometry x="-0.1187" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLDCWmIBOzPplrgn9gr-40" value="&lt;ul data-pm-slice=&quot;3 3 []&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;Toon de eindscore&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Beëindig het programma&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1600" width="220" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
