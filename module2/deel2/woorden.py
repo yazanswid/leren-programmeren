@@ -35,6 +35,7 @@ def vertaal_tekst(tekst):
             vertaalde_woorden.append(vertaald_woord)
         else:
             vertaalde_woorden.append(woord)
+
     
     return " ".join(vertaalde_woorden)
 
