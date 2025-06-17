@@ -1,28 +1,45 @@
-def quantum_broodrooster(stellar_broccoli:int) -> bool:
-    return stellar_broccoli % 2 == 0
+def is_even(getal:int) -> bool:
+    return getal % 2 == 0
 
-def chaos_papegaai(fantasie_platypus:str) -> str:
-    betoverde_druif = fantasie_platypus.split()
-    doldwaze_broccoli = betoverde_druif[::-1]
-    tijdmachine_pannenkoekenmix = ' '.join(doldwaze_broccoli)
-    return tijdmachine_pannenkoekenmix
+print(is_even(int(input("Voer een getal in: ")))) 
 
-def kosmische_koekjesmix(galactische_snoepjes:str) -> int:
-    planetair_taartje = set(galactische_snoepjes)
-    whatchamacallit = len(planetair_taartje)
-    return whatchamacallit
 
-def ruimte_hamsterwiel(planetair_taartje:str) -> float:
-    wobbelwobbel = planetair_taartje.split()
+
+
+def keer_woorden_om(zin:str) -> str:
+    woorden = zin.split()
+    omgekeerde_woorden = woorden[::-1]
+    omgekeerde_zin = ' '.join(omgekeerde_woorden)
+    return omgekeerde_zin
+
+print(keer_woorden_om(input("Voer een zin in: ")))  
+
+
+
+
+def unieke_tekens_teller(tekens:str) -> int:
+    uniek_tekens = set(tekens)
+    tekens_tellen = len(uniek_tekens)
+    return tekens_tellen
+
+print(unieke_tekens_teller(input("Voer een zin in: ")))
+
+def tekens_teller(zin:str) -> float:
+    worden = zin.split()
     
-    blork = 0
-    for snorkelwagen in wobbelwobbel:
-        blork += len(snorkelwagen)
+    tekens = 0
+    for letters in worden:
+        tekens += len(letters)
 
-    bizarro_matrix = blork / len(wobbelwobbel)
-    return bizarro_matrix
+    resultaat = tekens / len(worden)
+    return resultaat
 
-def spaghetti_spaceship(infinity_pizza:int, parallelle_tosti:int=10) -> None:
-    for zwabber_krakeling in range(1, parallelle_tosti+1):
-        laser_sandwich = zwabber_krakeling * infinity_pizza
-        print(f'{zwabber_krakeling} x {infinity_pizza} = {laser_sandwich}')
+print(tekens_teller(input("Voer een zin in: ")))
+
+
+def cijfer_tafel(getal:int, tot_en_met:int=10) -> None:
+    for vermenigvuldegir in range(1, tot_en_met+1):
+        resultaat = vermenigvuldegir * getal
+        print(f'{vermenigvuldegir} x {getal} = {resultaat}')
+
+print(cijfer_tafel(int(input("Voer een getal in: ")))) 
