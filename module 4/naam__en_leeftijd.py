@@ -17,6 +17,3 @@ def verzamel_gegevens():
             break
     return gegevens_lijst
 
-alle_gegevens = verzamel_gegevens()
-for persoon in alle_gegevens:
-    print(f"{persoon['naam']}, die in {persoon['woonplaats']}, is  {persoon['leeftijd']} jaar")
