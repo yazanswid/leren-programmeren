@@ -4,7 +4,8 @@ def vraag_naam_en_leeftijd():
     while not leeftijd.isdigit():
         print("Ongeldige invoer. Voer een geldige leeftijd in.")
         leeftijd = input("Wat is je leeftijd? ")
-    return {'naam': naam, 'leeftijd': leeftijd}
+    woonplaats = input("Wat is je woonplaats? ").strip().capitalize()
+    return {'naam': naam, 'leeftijd': leeftijd, 'woonplaats': woonplaats}
 
 def verzamel_gegevens():
     gegevens_lijst = []
@@ -18,4 +19,4 @@ def verzamel_gegevens():
 
 alle_gegevens = verzamel_gegevens()
 for persoon in alle_gegevens:
-    print(f"{persoon['naam']} is {persoon['leeftijd']} jaar")
+    print(f"{persoon['naam']}, die in {persoon['woonplaats']}, is  {persoon['leeftijd']} jaar")
