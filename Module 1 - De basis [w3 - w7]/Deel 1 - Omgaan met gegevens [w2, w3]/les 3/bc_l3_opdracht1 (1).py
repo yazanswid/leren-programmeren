@@ -1,6 +1,6 @@
 description = 'dag'
 
-days = 
+days = 1
 hours = days * 
 minutes = hours * 
 seconds = minutes * 
