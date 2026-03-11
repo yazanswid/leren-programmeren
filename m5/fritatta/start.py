@@ -1,5 +1,5 @@
 from recipe_lib import *
-from frittata_ingredients import *
+from m5.fritatta.frittata_ingredients import *
 
 # -------- TITLE --------
 print('=============== Frittata recept ===============')
