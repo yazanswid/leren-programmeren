@@ -38,7 +38,11 @@ def round_quarter(amount: float) -> float:
 # returns single or plural description of a string 'single desciption|plural description' 
 # depending on amount
 def str_single_plural(amount: float, txt: str) -> str:
-  pass
+    parts = txt.split('|')
+    if len(parts) == 2:
+        singular, plural = parts
+        return singular if amount < 2 else plural
+    return txt
 
 
 # returns description of single or plural units
