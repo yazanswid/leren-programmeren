@@ -1,55 +1,55 @@
 import random
 import string
 
-SPECIAL_CHARACTERS = "@#$%&_?"
-PASSWORD_LENGTH = 24
-MIDDLE_POSITIONS = {PASSWORD_LENGTH // 2 - 1, PASSWORD_LENGTH // 2}
+SPECIALE_TEKENS = "@#$%&_?"
+WACHTWOORD_LENGTE = 24
+MIDDELSTE_POSITIES = {WACHTWOORD_LENGTE // 2 - 1, WACHTWOORD_LENGTE // 2}
 
-
-def choose_counts():
+# bepaalt hoeveel tekens van elk type in het wachtwoord moeten komen
+def kies_aantallen():
     while True:
-        uppercase_count = random.randint(2, 6)
-        digit_count = random.randint(4, 7)
-        special_count = 3
-        lowercase_count = PASSWORD_LENGTH - uppercase_count - digit_count - special_count
-        if lowercase_count >= 8:
-            return uppercase_count, lowercase_count, digit_count, special_count
+        aantal_hoofdletters = random.randint(2, 6)
+        aantal_cijfers = random.randint(4, 7)
+        aantal_speciale = 3
+        aantal_kleine_letters = WACHTWOORD_LENGTE - aantal_hoofdletters - aantal_cijfers - aantal_speciale
+        if aantal_kleine_letters >= 8:
+            return aantal_hoofdletters, aantal_kleine_letters, aantal_cijfers, aantal_speciale
 
 
-def generate_password():
-    uppercase_count, lowercase_count, digit_count, special_count = choose_counts()
-    password = [None] * PASSWORD_LENGTH
+def genereer_wachtwoord():
+    aantal_hoofdletters, aantal_kleine_letters, aantal_cijfers, aantal_speciale = kies_aantallen()
+    wachtwoord = [None] * WACHTWOORD_LENGTE
 
-    special_positions = random.sample(list(range(1, PASSWORD_LENGTH - 1)), special_count)
-    for pos in special_positions:
-        password[pos] = random.choice(SPECIAL_CHARACTERS)
+    speciale_posities = random.sample(list(range(1, WACHTWOORD_LENGTE - 1)), aantal_speciale)
+    for positie in speciale_posities:
+        wachtwoord[positie] = random.choice(SPECIALE_TEKENS)
 
-    uppercase_positions = random.sample(
-        [pos for pos in range(PASSWORD_LENGTH) if pos not in MIDDLE_POSITIONS and password[pos] is None],
-        uppercase_count,
+    hoofdletter_posities = random.sample(
+        [positie for positie in range(WACHTWOORD_LENGTE) if positie not in MIDDELSTE_POSITIES and wachtwoord[positie] is None],
+        aantal_hoofdletters,
     )
-    for pos in uppercase_positions:
-        password[pos] = random.choice(string.ascii_uppercase)
+    for positie in hoofdletter_posities:
+        wachtwoord[positie] = random.choice(string.ascii_uppercase)
 
-    digit_positions = random.sample(
-        [pos for pos in range(3, PASSWORD_LENGTH) if password[pos] is None],
-        digit_count,
+    cijfer_posities = random.sample(
+        [positie for positie in range(3, WACHTWOORD_LENGTE) if wachtwoord[positie] is None],
+        aantal_cijfers,
     )
-    for pos in digit_positions:
-        password[pos] = random.choice(string.digits)
+    for positie in cijfer_posities:
+        wachtwoord[positie] = random.choice(string.digits)
 
-    for i in range(PASSWORD_LENGTH):
-        if password[i] is None:
-            password[i] = random.choice(string.ascii_lowercase)
+    for i in range(WACHTWOORD_LENGTE):
+        if wachtwoord[i] is None:
+            wachtwoord[i] = random.choice(string.ascii_lowercase)
 
-    if password[-1].islower():
-        for i in range(PASSWORD_LENGTH - 1):
-            if password[i] in string.ascii_uppercase + string.digits + SPECIAL_CHARACTERS:
-                password[i], password[-1] = password[-1], password[i]
+    if wachtwoord[-1].islower():
+        for i in range(WACHTWOORD_LENGTE - 1):
+            if wachtwoord[i] in string.ascii_uppercase + string.digits + SPECIALE_TEKENS:
+                wachtwoord[i], wachtwoord[-1] = wachtwoord[-1], wachtwoord[i]
                 break
 
-    return "".join(password)
+    return "".join(wachtwoord)
 
 
 if __name__ == "__main__":
-    print(generate_password())
+    print(genereer_wachtwoord())
