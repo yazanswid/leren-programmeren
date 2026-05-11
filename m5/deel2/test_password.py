@@ -8,6 +8,7 @@
 # Random 4 tot 7 cijfers (0 t/m 9).
 ## Op de eerste 3 posities mag geen cijfer staan
 import time, string
+from password_generator import genereer_wachtwoord
 
 def test_wachtwoord(ww) -> bool:
     if len(ww) < 24:
@@ -39,9 +40,12 @@ def test_wachtwoord(ww) -> bool:
         return False
     return True
 
-def get_wachtwoord():
-    return 'wachtwoord'
+def get_wachtwoord() -> str:
+    print
+    
+    (genereer_wachtwoord())
+    return genereer_wachtwoord()
     # plaats jouw code hier.
-
-
+wachtwoord = get_wachtwoord()
+test_wachtwoord(wachtwoord)
 # plaats hier de code om minimaal 500 wachtwoorden te testen.
