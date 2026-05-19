@@ -40,7 +40,7 @@ while True:
             print("Je moet eerst een berekening doen.")
             continue
 
-    # Keuze omzetten naar actie
+    # Keuze omzetten naar actiea
     n1 = uitkomst if not first_round else False
     n2 = False
 
