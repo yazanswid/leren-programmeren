@@ -42,7 +42,6 @@ def type_text(str):
         time.sleep(0.1)
 
 def input(prompt: str = ''):
-  # global data
   builtins.print(prompt,end='')
   if data['active']:
     if len(data['prompts']) > 0:
@@ -122,7 +121,6 @@ def test(name: str, expect: any, value: any):
     add_test_result(txt = '  for:      {}', vars=[str(expect)], color='white')
     if is_regex:
       add_test_result(txt = '  with:     {}', vars=[str(value)], color='white')
-    
   else:
     add_test_result(txt = '{}: ' + name, vars=['failed'], color='red')
     expect_str = str_more(str(expect),60)
