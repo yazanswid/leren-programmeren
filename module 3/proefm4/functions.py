@@ -1,6 +1,6 @@
 import time
 from termcolor import colored
-from data import JOURNEY_IN_DAYS
+from data import *
 
 ##################### O03 #####################
 
@@ -22,12 +22,14 @@ def getPersonCashInGold(personCash:dict) -> float:
 ##################### O05 #####################
 
 def getJourneyFoodCostsInGold(people:int, horses:int) -> float:
-    pass
+      total_copper = (people * COST_FOOD_HUMAN_COPPER_PER_DAY + horses * COST_FOOD_HORSE_COPPER_PER_DAY) * JOURNEY_IN_DAYS
+      return round(copper2gold(total_copper), 2)
+
 
 ##################### O06 #####################
 
 def getFromListByKeyIs(list:list, key:str, value:any) -> list:
-    pass
+     return [item for item in list if item.get(key) == value]
 
 def getAdventuringPeople(people:list) -> list:
     pass
