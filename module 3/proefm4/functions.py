@@ -32,13 +32,13 @@ def getFromListByKeyIs(list:list, key:str, value:any) -> list:
      return [item for item in list if item.get(key) == value]
 
 def getAdventuringPeople(people:list) -> list:
-    pass
+     return getFromListByKeyIs(people, 'adventuring', True)
 
 def getShareWithFriends(friends:list) -> list:
-    pass
+        return getFromListByKeyIs(friends, 'shareWith', True)
 
 def getAdventuringFriends(friends:list) -> list:
-    pass
+     return getAdventuringPeople(getShareWithFriends(friends))
 
 ##################### O07 #####################
 
