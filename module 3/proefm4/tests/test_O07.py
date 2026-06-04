@@ -1,5 +1,5 @@
 import sys, os
-from test_lib import test, report
+from test_lib3 import test, report
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 

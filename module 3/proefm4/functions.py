@@ -1,3 +1,4 @@
+import math
 import time
 from termcolor import colored
 from data import *
@@ -43,13 +44,16 @@ def getAdventuringFriends(friends:list) -> list:
 ##################### O07 #####################
 
 def getNumberOfHorsesNeeded(people:int) -> int:
-    pass
+    return math.ceil(people / 2)
 
 def getNumberOfTentsNeeded(people:int) -> int:
-    pass
+    return math.ceil(people / 3)
 
 def getTotalRentalCost(horses:int, tents:int) -> float:
-    pass
+    horse_cost_gold = silver2gold(COST_HORSE_SILVER_PER_DAY * horses * JOURNEY_IN_DAYS)
+    weeks = math.ceil(JOURNEY_IN_DAYS / 7)
+    tent_cost_gold = COST_TENT_GOLD_PER_WEEK * tents * weeks
+    return round(horse_cost_gold + tent_cost_gold, 2)
 
 ##################### O08 #####################
 
