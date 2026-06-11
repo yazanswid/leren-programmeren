@@ -165,11 +165,21 @@ def getJourneyInnCostsInGold(nightsInInn:int, people:int, horses:int) -> float:
 ##################### O13 #####################
 
 def getInvestorsCuts(profitGold:float, investors:list) -> list:
-    pass
-
+    #alle investeerders krijgen een deel van het totale winst bedrag. Welke percentage ze krijgen staat bij iedere investeerder in de property 'profitReturn'. Uit deze function komt een list met alle bedragen in goud.
+    if not investors or profitGold <= 0:
+        return []
+    return [round(profitGold*(i.get('profitReturn',0)/100),2)
+            for i in investors
+            if 1 <= i.get('profitReturn',0) <= 10]
 def getAdventurerCut(profitGold:float, investorsCuts:list, fellowship:int) -> float:
-    pass
-
+    #hier komt 1 bedrag in goud uit. Het is het bedrag in goud dat elke mede-avonturier moet krijgen. Hoeveel avonturiers gingen er mee? Dat aantal heet fellowship!
+    if profitGold <= 0 or fellowship <= 0:
+        return 0.0
+    used = sum(investorsCuts) if investorsCuts else 0.0
+    rem = profitGold - used
+    if rem <= 0:
+        return 0.0
+    return round(rem / fellowship, 2)
 ##################### O14 #####################
 
 def getEarnigs(profitGold:float, mainCharacter:dict, friends:list, investors:list) -> list:
